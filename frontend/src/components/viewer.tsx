@@ -130,7 +130,6 @@ export class Viewer {
     this.backgroundColor = new Color(this.state.bgColor);
 
     this.scene = new Scene();
-    // this.scene.background = this.backgroundColor;
 
     const fov = options.preset === Preset.ASSET_GENERATOR ? (0.8 * 180) / Math.PI : 60;
     const aspect = el.clientWidth / el.clientHeight;
@@ -139,7 +138,6 @@ export class Viewer {
     this.scene.add(this.defaultCamera);
 
     this.renderer = new WebGLRenderer({ antialias: true, alpha: true });
-    // this.renderer.setClearColor(0xcccccc);
     this.renderer.setPixelRatio(window.devicePixelRatio);
     this.renderer.setSize(el.clientWidth, el.clientHeight);
     this.renderer.setClearColor( 0x000000, 0 );
@@ -670,15 +668,6 @@ function traverseMaterials(object: THREE.Object3D, callback: (material: any) => 
     const materials = Array.isArray(node.material) ? node.material : [node.material];
     materials.forEach(callback);
   });
-}
-
-function isIOS() {
-  return (
-    ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(
-      navigator.platform
-    ) ||
-    (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
-  );
 }
 
 const ViewerComponent = () => {
