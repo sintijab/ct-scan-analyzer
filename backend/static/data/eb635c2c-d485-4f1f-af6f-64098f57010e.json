@@ -1,0 +1,237 @@
+{
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/perimeter": {
+      "type": "Scalar",
+      "value": 144.82332877909357,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/perimeter": {
+      "type": "Scalar",
+      "value": 137.2942184888799,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/area": {
+      "type": "Scalar",
+      "value": 1496.6869940861834,
+      "unit": "mm2"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/area_derived_diameter_length": {
+      "type": "Scalar",
+      "value": 43.6536489535678,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/perimeter_derived_diameter_length": {
+      "type": "Scalar",
+      "value": 43.70210706088785,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/d_max_length": {
+      "type": "Scalar",
+      "value": 46.76444549331094,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline/d_min_length": {
+      "type": "Scalar",
+      "value": 40.23438028737184,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/d_max_length": {
+      "type": "Scalar",
+      "value": 46.881389278288566,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/perimeter": {
+      "type": "Scalar",
+      "value": 133.9274664204878,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/projected/perimeter": {
+      "type": "Scalar",
+      "value": 133.57257944101337,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/trigone_to_trigone/line/length": {
+      "type": "Scalar",
+      "value": 33.77435987036374,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/projected/area": {
+      "type": "Scalar",
+      "value": 1267.2354762014024,
+      "unit": "mm2"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/projected/d_sl_to_d_ic_ratio": {
+      "type": "Scalar",
+      "value": 1.3525103417384414,
+      "unit": null
+    },
+    "/mitral_annulus/from_leaflets/d_shape/projected/d_sl_to_d_ic_perp_ratio": {
+      "type": "Scalar",
+      "value": 1.3724747475290584,
+      "unit": null
+    },
+    "/mitral_annulus/from_leaflets/d_shape/closed_spline/projected_spline/area_derived_diameter_length": {
+      "type": "Scalar",
+      "value": 40.16832484422173,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/height": {
+      "type": "Scalar",
+      "value": 11.743312884868882,
+      "unit": "mm"
+    },
+    "/mitral_annulus/from_leaflets/d_shape/projected/saddle_height_to_d_ic_perp_ratio": {
+      "type": "Scalar",
+      "value": 0.2549993566002292,
+      "unit": null
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline": {
+      "points": [
+        [
+          167.18347486809603,
+          213.08391762233475,
+          78.34759655398932
+        ],
+        [
+          176.04504673587954,
+          221.5815814729204,
+          76.42726208429706
+        ],
+        [
+          183.5875503832854,
+          228.64682336434612,
+          83.86451861908895
+        ],
+        [
+          188.91963563916138,
+          227.79180749246385,
+          95.37237628787513
+        ],
+        [
+          189.9623890569731,
+          221.52469912207565,
+          105.33833440576588
+        ],
+        [
+          186.82062580703155,
+          213.96940298072533,
+          113.3526143100352
+        ],
+        [
+          179.48002850081483,
+          205.2179260117327,
+          116.88552473444707
+        ],
+        [
+          170.7016564050002,
+          196.43187795557978,
+          114.50475597451569
+        ],
+        [
+          162.34308560789376,
+          192.7914494270659,
+          104.908728890668
+        ],
+        [
+          162.81526031819067,
+          190.41730353401223,
+          97.80519579670467
+        ],
+        [
+          166.3599695045418,
+          190.25022380435422,
+          90.20500587225831
+        ],
+        [
+          167.39793470111678,
+          192.6700911691085,
+          84.22388296794598
+        ],
+        [
+          167.5426487292944,
+          198.87596367046163,
+          80.693978310861
+        ],
+        [
+          166.34414977265376,
+          206.60947194694717,
+          79.39821275895437
+        ]
+      ],
+      "type": "ClosedCatmullRomSpline"
+    },
+    "/mitral_annulus/from_leaflets/saddle_shape/closed_spline/projected_spline": {
+      "points": [
+        [
+          170.6934074319919,
+          210.76912086102615,
+          77.19118009203244
+        ],
+        [
+          177.0346740706114,
+          220.92892330709023,
+          76.10120985387579
+        ],
+        [
+          184.29688196380164,
+          228.17901994778975,
+          83.63081534936447
+        ],
+        [
+          188.26551298455018,
+          228.22320068160022,
+          95.58788988882355
+        ],
+        [
+          188.08219793797662,
+          222.76468314845349,
+          105.95780042742052
+        ],
+        [
+          185.45842733645722,
+          214.86777141104216,
+          113.80141744432566
+        ],
+        [
+          179.88849012673617,
+          204.94854600753337,
+          116.75094900124016
+        ],
+        [
+          172.53519553839746,
+          195.22266086366798,
+          113.90066036900089
+        ],
+        [
+          165.9881774028863,
+          190.38751529781416,
+          103.7077815561145
+        ],
+        [
+          163.62371381453207,
+          189.88412932028245,
+          97.53883485817482
+        ],
+        [
+          163.17815811583708,
+          192.34862500255088,
+          91.25331634596608
+        ],
+        [
+          163.30088259728535,
+          195.37209263728914,
+          85.57373753412799
+        ],
+        [
+          165.24998612456153,
+          200.38797219928603,
+          81.44934119307068
+        ],
+        [
+          167.8557406455792,
+          205.61257938751072,
+          78.90018935326975
+        ]
+      ],
+      "type": "ClosedCatmullRomSpline"
+    }
+}
