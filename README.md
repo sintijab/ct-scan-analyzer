@@ -51,7 +51,7 @@ And is reachable at `http://localhost:3000`.
 
 ## Project structure
 
-Patient details view imports reusable ThreeJS model view with data processed from patients medical records. For both .gltf and .json extensions data points can be processed and displayed in 2D or 3D object format. \
+Patient details view imports reusable ThreeJS model view with data processed from patients medical records. For both .gltf and .json extensions data points can be processed and displayed in 2D or 3D object format.
 
 2D model data of medical imaging for heart anatomy is displayed with Konva Overlay to see  image scans in layers in 3D space and edit the vector graphics. 
 
@@ -61,14 +61,14 @@ Scan imaging segments is visualized in 3D layers, where files with .gltf are ren
 
 ### Interaction
 
-Both model layers can be interacted on mouse events - vector lines are connected for making coorections with mouse, it would be also useful to add input fields and display coordinates. \
-3D model orbit controls allows the camera to orbit around a target and it can be updated with mouse or the controller. 3D model includes some basic options to manipulate the display, lighting, performance with the Dat.GUI control pane. The grouped vector graphics can be moved across canvas with mouse hold and scaled with input range slider next to the 3D model controls. \
+Both model layers can be interacted on mouse events - vector lines are connected for making coorections with mouse, it would be also useful to add input fields and display coordinates.
+3D model orbit controls allows the camera to orbit around a target and it can be updated with mouse or the controller. 3D model includes some basic options to manipulate the display, lighting, performance with the Dat.GUI control pane. The grouped vector graphics can be moved across canvas with mouse hold and scaled with input range slider next to the 3D model controls.
 
-Transparency for the 3D model is set to 60% to see through the layers. Both models cannot be interacted with at the same time, the link to Reorder Layers changes the active Layer to introspect. \
+Transparency for the 3D model is set to 60% to see through the layers. Both models cannot be interacted with at the same time, the link to Reorder Layers changes the active Layer to introspect.
 
 ### Data storage
 
-I created the context from 3D object to convert the vector from this object's local space to world space and then use this context to subscribe and control data stored from other models. \
+I created the context from 3D object to convert the vector from this object's local space to world space and then use this context to subscribe and control data stored from other models.
 
-It can be then decided then which context is ready to request for further processing and analysis. \
+It can be then decided then which context is ready to request for further processing and analysis.
 
